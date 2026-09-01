@@ -2,10 +2,10 @@
   "region": "guangzhou",
   "graphVersion": "graph-2026-09-01-002",
   "tileFormat": "valhalla-gph",
-  "baseUrl": "https://cdn.jsdelivr.net/gh/The-V-Factor/PeiXiu-routing-data@GRAPH_COMMIT_SHA/routing/guangzhou/graph-2026-09-01-002",
+  "baseUrl": "https://cdn.jsdelivr.net/gh/The-V-Factor/PeiXiu-routing-data@2ebb2cc49a3bd9cf940c0377f184c127145a2f88/routing/guangzhou/graph-2026-09-01-002",
   "generatedAt": "2026-09-01T09:11:25.645Z",
-  "boundaryUrl": "https://cdn.jsdelivr.net/gh/The-V-Factor/PeiXiu-routing-data@GRAPH_COMMIT_SHA/boundaries/guangzhou/guangzhou-admin.geojson",
-  "coverageUrl": "https://cdn.jsdelivr.net/gh/The-V-Factor/PeiXiu-routing-data@GRAPH_COMMIT_SHA/routing/guangzhou/coverage.geojson",
+  "boundaryUrl": "https://cdn.jsdelivr.net/gh/The-V-Factor/PeiXiu-routing-data@2ebb2cc49a3bd9cf940c0377f184c127145a2f88/boundaries/guangzhou/guangzhou-admin.geojson",
+  "coverageUrl": "https://cdn.jsdelivr.net/gh/The-V-Factor/PeiXiu-routing-data@2ebb2cc49a3bd9cf940c0377f184c127145a2f88/routing/guangzhou/coverage.geojson",
   "source": {
     "kind": "osm-pbf",
     "url": "https://download.geofabrik.de/asia/china/guangdong-latest.osm.pbf",
