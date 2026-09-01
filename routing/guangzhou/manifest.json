@@ -2,7 +2,7 @@
   "region": "guangzhou",
   "graphVersion": "graph-2026-09-01-001",
   "tileFormat": "valhalla-gph",
-  "baseUrl": "https://cdn.jsdelivr.net/gh/The-V-Factor/PeiXiu-routing-data@GRAPH_COMMIT_SHA/routing/guangzhou/graph-2026-09-01-001",
+  "baseUrl": "https://cdn.jsdelivr.net/gh/The-V-Factor/PeiXiu-routing-data@bc561c212ef7d5f43e7ea0966e67e1fae08b3deb/routing/guangzhou/graph-2026-09-01-001",
   "generatedAt": "2026-09-01T01:50:04.681Z",
   "source": {
     "kind": "osm-pbf",
