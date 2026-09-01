@@ -1,19 +1,21 @@
 {
   "region": "guangzhou",
-  "graphVersion": "graph-2026-09-01-001",
+  "graphVersion": "graph-2026-09-01-002",
   "tileFormat": "valhalla-gph",
-  "baseUrl": "https://cdn.jsdelivr.net/gh/The-V-Factor/PeiXiu-routing-data@bc561c212ef7d5f43e7ea0966e67e1fae08b3deb/routing/guangzhou/graph-2026-09-01-001",
-  "generatedAt": "2026-09-01T01:50:04.681Z",
+  "baseUrl": "https://cdn.jsdelivr.net/gh/The-V-Factor/PeiXiu-routing-data@GRAPH_COMMIT_SHA/routing/guangzhou/graph-2026-09-01-002",
+  "generatedAt": "2026-09-01T09:11:25.645Z",
+  "boundaryUrl": "https://cdn.jsdelivr.net/gh/The-V-Factor/PeiXiu-routing-data@GRAPH_COMMIT_SHA/boundaries/guangzhou/guangzhou-admin.geojson",
+  "coverageUrl": "https://cdn.jsdelivr.net/gh/The-V-Factor/PeiXiu-routing-data@GRAPH_COMMIT_SHA/routing/guangzhou/coverage.geojson",
   "source": {
     "kind": "osm-pbf",
-    "url": "https://download.geofabrik.de/asia/china/guangdong-260830.osm.pbf",
+    "url": "https://download.geofabrik.de/asia/china/guangdong-latest.osm.pbf",
     "downloadedAt": null,
-    "osmPbfSha256": "eb6ce4f8be99a5852af409e15f0b0a1898fae91079874fa3070e0a9a9bb933d9",
+    "osmPbfSha256": "0e9e5d0da978274d9e87998ebb8a95bf968669a860bbb44c0faf395c48a2a519",
     "clipBounds": {
-      "west": 113.1,
-      "south": 22.95,
-      "east": 113.55,
-      "north": 23.35
+      "west": 112.95,
+      "south": 22.56,
+      "east": 114.06,
+      "north": 23.94
     },
     "tileBuilder": "ghcr.io/gis-ops/docker-valhalla/valhalla:latest"
   },
@@ -22,181 +24,421 @@
       "tileId": "0/002/593",
       "path": "0/002/593.gph",
       "bounds": {
-        "west": 113.1,
-        "south": 22.95,
-        "east": 113.55,
-        "north": 23.35
+        "west": 112.95,
+        "south": 22.56,
+        "east": 114.06,
+        "north": 23.94
       },
-      "sizeBytes": 4133184,
-      "sha256": "f446939384eaa685c12e7c073e361bcf22b64f28ec4065e59a301fef1eff2289"
+      "sizeBytes": 6382440,
+      "sha256": "ff209beb19d0bab95439822742da48f2d5bab2e21f09ba9bb4f4ab85756c72e2"
     },
     {
       "tileId": "1/040/613",
       "path": "1/040/613.gph",
       "bounds": {
-        "west": 113.1,
-        "south": 22.95,
-        "east": 113.55,
-        "north": 23.35
+        "west": 112.95,
+        "south": 22.56,
+        "east": 114.06,
+        "north": 23.94
       },
-      "sizeBytes": 1137912,
-      "sha256": "0fe0d2395ea48290deddf47594704e51f045b19474fd3e318607d47efa7eb8a7"
+      "sizeBytes": 2081400,
+      "sha256": "4ba63b4021976b25b6165ce598925a9fc3ac8f40388c3e64d123505b90a22077"
+    },
+    {
+      "tileId": "1/040/972",
+      "path": "1/040/972.gph",
+      "bounds": {
+        "west": 112.95,
+        "south": 22.56,
+        "east": 114.06,
+        "north": 23.94
+      },
+      "sizeBytes": 4088,
+      "sha256": "51990ff1b093316eff4e1d3eb17e38d54321ba152b7af13900e2e39052f1577d"
     },
     {
       "tileId": "1/040/973",
       "path": "1/040/973.gph",
       "bounds": {
-        "west": 113.1,
-        "south": 22.95,
-        "east": 113.55,
-        "north": 23.35
+        "west": 112.95,
+        "south": 22.56,
+        "east": 114.06,
+        "north": 23.94
       },
-      "sizeBytes": 7329200,
-      "sha256": "d05468dddf7d81edcd8235a6e778244934b96633d3d6c0dfd414d1cbd3b9b9d0"
+      "sizeBytes": 8526368,
+      "sha256": "29a5a96d78ccdf120ef25b7a5a9039ca414010632fd2e524abadb232eea7ba2b"
+    },
+    {
+      "tileId": "1/040/974",
+      "path": "1/040/974.gph",
+      "bounds": {
+        "west": 112.95,
+        "south": 22.56,
+        "east": 114.06,
+        "north": 23.94
+      },
+      "sizeBytes": 4568,
+      "sha256": "abbf77d669e52635e884dd1801a7f9a811e622a3a6d177bc2c3484d2556ab617"
+    },
+    {
+      "tileId": "2/000/646/294",
+      "path": "2/000/646/294.gph",
+      "bounds": {
+        "west": 112.95,
+        "south": 22.56,
+        "east": 114.06,
+        "north": 23.94
+      },
+      "sizeBytes": 344,
+      "sha256": "cea22bbfd4409c66e6ee53faf97aa8ce753d1d8fda2dd4bc666a53dc507fd219"
+    },
+    {
+      "tileId": "2/000/646/295",
+      "path": "2/000/646/295.gph",
+      "bounds": {
+        "west": 112.95,
+        "south": 22.56,
+        "east": 114.06,
+        "north": 23.94
+      },
+      "sizeBytes": 400,
+      "sha256": "aac0cfdf7f8188b44db6829c2e7588db7f81129aedeff24dccabf3061689ee80"
+    },
+    {
+      "tileId": "2/000/646/296",
+      "path": "2/000/646/296.gph",
+      "bounds": {
+        "west": 112.95,
+        "south": 22.56,
+        "east": 114.06,
+        "north": 23.94
+      },
+      "sizeBytes": 304,
+      "sha256": "6deb7823f0fc9ae87068c9d5060ddb84c592a5a68c3c1acf4f84edf93572b305"
+    },
+    {
+      "tileId": "2/000/647/734",
+      "path": "2/000/647/734.gph",
+      "bounds": {
+        "west": 112.95,
+        "south": 22.56,
+        "east": 114.06,
+        "north": 23.94
+      },
+      "sizeBytes": 376,
+      "sha256": "7543fd26dd714775a6f8e953233fbd4587e3377bb3c7b3feb6b343bea09f1aca"
     },
     {
       "tileId": "2/000/647/735",
       "path": "2/000/647/735.gph",
       "bounds": {
-        "west": 113.1,
-        "south": 22.95,
-        "east": 113.55,
-        "north": 23.35
+        "west": 112.95,
+        "south": 22.56,
+        "east": 114.06,
+        "north": 23.94
       },
-      "sizeBytes": 320,
-      "sha256": "8413f0ab231cff1a1d560e44e5755f16dad82ce1114293ac3357cf61bf4f8e9d"
+      "sizeBytes": 456,
+      "sha256": "86906eb34eb7e277727d0edea7c156df7d4e1bdabc4de7a5b0baba4c23c65364"
+    },
+    {
+      "tileId": "2/000/647/736",
+      "path": "2/000/647/736.gph",
+      "bounds": {
+        "west": 112.95,
+        "south": 22.56,
+        "east": 114.06,
+        "north": 23.94
+      },
+      "sizeBytes": 344,
+      "sha256": "dc006f877dc25669192681c430faecdcaf588f8506e8ac8209f1dd300b599ae1"
+    },
+    {
+      "tileId": "2/000/649/173",
+      "path": "2/000/649/173.gph",
+      "bounds": {
+        "west": 112.95,
+        "south": 22.56,
+        "east": 114.06,
+        "north": 23.94
+      },
+      "sizeBytes": 41072,
+      "sha256": "0e6caf3c62214aa3cb2ee27b182870b8958bcc2f8a0c81dd7d039d1681d77611"
     },
     {
       "tileId": "2/000/649/174",
       "path": "2/000/649/174.gph",
       "bounds": {
-        "west": 113.1,
-        "south": 22.95,
-        "east": 113.55,
-        "north": 23.35
+        "west": 112.95,
+        "south": 22.56,
+        "east": 114.06,
+        "north": 23.94
       },
-      "sizeBytes": 336,
-      "sha256": "f1ff9a1f9ed0415377c81af9d345a0838e61e3b2d06ce4aa9629bbf6ae2de6c5"
+      "sizeBytes": 299944,
+      "sha256": "c931ee717a8683d0548a74572be195478bb602fd10cb2921eee3ae402d6de316"
     },
     {
       "tileId": "2/000/649/175",
       "path": "2/000/649/175.gph",
       "bounds": {
-        "west": 113.1,
-        "south": 22.95,
-        "east": 113.55,
-        "north": 23.35
+        "west": 112.95,
+        "south": 22.56,
+        "east": 114.06,
+        "north": 23.94
       },
-      "sizeBytes": 328,
-      "sha256": "b25e0a8c4185b76fa915c81a79133d51b7a6c577faf0f8c84a9c62ecc77bba30"
+      "sizeBytes": 432,
+      "sha256": "989429b2fc10ee572b4a16e8f8cf6abc12bac2c9a4a6348fa8be5496034c6de8"
     },
     {
       "tileId": "2/000/650/612",
       "path": "2/000/650/612.gph",
       "bounds": {
-        "west": 113.1,
-        "south": 22.95,
-        "east": 113.55,
-        "north": 23.35
+        "west": 112.95,
+        "south": 22.56,
+        "east": 114.06,
+        "north": 23.94
       },
-      "sizeBytes": 479696,
-      "sha256": "89106791fd604080c9c6298da25cddd35624de35eb879178d1c8c12fb83e1991"
+      "sizeBytes": 4648,
+      "sha256": "f8609f13bd3403532d00abe9cb0e0363666b81956bce7dada608f6c467047cf0"
     },
     {
       "tileId": "2/000/650/613",
       "path": "2/000/650/613.gph",
       "bounds": {
-        "west": 113.1,
-        "south": 22.95,
-        "east": 113.55,
-        "north": 23.35
+        "west": 112.95,
+        "south": 22.56,
+        "east": 114.06,
+        "north": 23.94
       },
-      "sizeBytes": 1305952,
-      "sha256": "53c6149ea2b296f09393371827e877988c6028f277a6db666c151274fb2f945b"
+      "sizeBytes": 3397264,
+      "sha256": "a8e21419c3058ac058447cd2f9316e6a41f2ea0ba5108c7f1cafca72c3a50ed3"
     },
     {
       "tileId": "2/000/650/614",
       "path": "2/000/650/614.gph",
       "bounds": {
-        "west": 113.1,
-        "south": 22.95,
-        "east": 113.55,
-        "north": 23.35
+        "west": 112.95,
+        "south": 22.56,
+        "east": 114.06,
+        "north": 23.94
       },
-      "sizeBytes": 118336,
-      "sha256": "e518acbe91edebbcfe3de1cc59824dcf7d9829ad90731fa7e309188b3ab8ca4a"
+      "sizeBytes": 820232,
+      "sha256": "d072b2e033d6d1c2ee255950e464a20c057beb6bf4296789af6e6051c19115ce"
     },
     {
       "tileId": "2/000/652/052",
       "path": "2/000/652/052.gph",
       "bounds": {
-        "west": 113.1,
-        "south": 22.95,
-        "east": 113.55,
-        "north": 23.35
+        "west": 112.95,
+        "south": 22.56,
+        "east": 114.06,
+        "north": 23.94
       },
-      "sizeBytes": 4546792,
-      "sha256": "345b6ddd0c819d93872d8cc1d7cebbd50f4dc6378d2d7a273349471126366660"
+      "sizeBytes": 2046840,
+      "sha256": "b56aafbf3df614bd190e53f195b99a9d539cd49ce1e389f79db5baa4526d37d4"
     },
     {
       "tileId": "2/000/652/053",
       "path": "2/000/652/053.gph",
       "bounds": {
-        "west": 113.1,
-        "south": 22.95,
-        "east": 113.55,
-        "north": 23.35
+        "west": 112.95,
+        "south": 22.56,
+        "east": 114.06,
+        "north": 23.94
       },
-      "sizeBytes": 11046752,
-      "sha256": "74255c4a6d93b850335497c4a8694ed16d555a34918391004b371b05f1ea6b1d"
+      "sizeBytes": 11050184,
+      "sha256": "7687fcbf1a213ded55d92c27d90d1402a6bc31f59d5f5c9b198fe0aae715ae54"
     },
     {
       "tileId": "2/000/652/054",
       "path": "2/000/652/054.gph",
       "bounds": {
-        "west": 113.1,
-        "south": 22.95,
-        "east": 113.55,
-        "north": 23.35
+        "west": 112.95,
+        "south": 22.56,
+        "east": 114.06,
+        "north": 23.94
       },
-      "sizeBytes": 560176,
-      "sha256": "be86aab3c17b4137925102678542481806f13f3787c25129739f1e889dac1e82"
+      "sizeBytes": 1479480,
+      "sha256": "f57ce66d244126464a49b1938aec95cc16e2f311bd4ac0b9a7c67f34eb89a1b2"
+    },
+    {
+      "tileId": "2/000/652/055",
+      "path": "2/000/652/055.gph",
+      "bounds": {
+        "west": 112.95,
+        "south": 22.56,
+        "east": 114.06,
+        "north": 23.94
+      },
+      "sizeBytes": 274216,
+      "sha256": "ff3bea7c053a8521f428031b953224a8464065f485d19bd02ab609e3bab2023d"
+    },
+    {
+      "tileId": "2/000/653/491",
+      "path": "2/000/653/491.gph",
+      "bounds": {
+        "west": 112.95,
+        "south": 22.56,
+        "east": 114.06,
+        "north": 23.94
+      },
+      "sizeBytes": 19760,
+      "sha256": "c991c1609c7c6394c7be7c7d4ca736912549176461d68a51451095cd915387c3"
     },
     {
       "tileId": "2/000/653/492",
       "path": "2/000/653/492.gph",
       "bounds": {
-        "west": 113.1,
-        "south": 22.95,
-        "east": 113.55,
-        "north": 23.35
+        "west": 112.95,
+        "south": 22.56,
+        "east": 114.06,
+        "north": 23.94
       },
-      "sizeBytes": 485816,
-      "sha256": "92c5c2e88c9226b5c37bb8f0b097fef71f2bf9f9765dc04301072dd1e40cca55"
+      "sizeBytes": 1844376,
+      "sha256": "8b32cf4a5372d17e91b2b41bdb9703790b0e3a116564478b9a74f9a28e5dd223"
     },
     {
       "tileId": "2/000/653/493",
       "path": "2/000/653/493.gph",
       "bounds": {
-        "west": 113.1,
-        "south": 22.95,
-        "east": 113.55,
-        "north": 23.35
+        "west": 112.95,
+        "south": 22.56,
+        "east": 114.06,
+        "north": 23.94
       },
-      "sizeBytes": 1039632,
-      "sha256": "53024b277fd54d93389c4bc365982d4b5fb6ddf2621a704ca29f73d601b65b79"
+      "sizeBytes": 2441616,
+      "sha256": "ae1a5a0fee66912e1ea953424fa85e70aef1026cc7f19b62a649149aa147779d"
     },
     {
       "tileId": "2/000/653/494",
       "path": "2/000/653/494.gph",
       "bounds": {
-        "west": 113.1,
-        "south": 22.95,
-        "east": 113.55,
-        "north": 23.35
+        "west": 112.95,
+        "south": 22.56,
+        "east": 114.06,
+        "north": 23.94
       },
-      "sizeBytes": 275808,
-      "sha256": "6752e30cbd7f846ee91f0556c2be541cb5ebc465e97c84003d1ac8bce0c3c9e9"
+      "sizeBytes": 1170912,
+      "sha256": "db7b2ccbade5e2ec85dd1255b8168448b797f561d7bd804d0ffdc555448a6d2f"
+    },
+    {
+      "tileId": "2/000/653/495",
+      "path": "2/000/653/495.gph",
+      "bounds": {
+        "west": 112.95,
+        "south": 22.56,
+        "east": 114.06,
+        "north": 23.94
+      },
+      "sizeBytes": 590016,
+      "sha256": "a8660d801fdeee58ddf97cb484cc7d1b78809d64e895dcb39cd4f56b228f8ea2"
+    },
+    {
+      "tileId": "2/000/653/496",
+      "path": "2/000/653/496.gph",
+      "bounds": {
+        "west": 112.95,
+        "south": 22.56,
+        "east": 114.06,
+        "north": 23.94
+      },
+      "sizeBytes": 1352,
+      "sha256": "0ab12924d839160c7a052efab171f5ac89854dd7aacb15db8010cefcadada94d"
+    },
+    {
+      "tileId": "2/000/654/932",
+      "path": "2/000/654/932.gph",
+      "bounds": {
+        "west": 112.95,
+        "south": 22.56,
+        "east": 114.06,
+        "north": 23.94
+      },
+      "sizeBytes": 142152,
+      "sha256": "043ec8eec554fe5644f1cb05b28e11730f59febaf4010ff76e5fb11f95cd08c9"
+    },
+    {
+      "tileId": "2/000/654/933",
+      "path": "2/000/654/933.gph",
+      "bounds": {
+        "west": 112.95,
+        "south": 22.56,
+        "east": 114.06,
+        "north": 23.94
+      },
+      "sizeBytes": 401104,
+      "sha256": "4612f132566157d1f3ed6c0f86779acb73f32b97e4016210def55866c07373ae"
+    },
+    {
+      "tileId": "2/000/654/934",
+      "path": "2/000/654/934.gph",
+      "bounds": {
+        "west": 112.95,
+        "south": 22.56,
+        "east": 114.06,
+        "north": 23.94
+      },
+      "sizeBytes": 857080,
+      "sha256": "28af822b3727042cfa0d756e70d8c82656c9853f8723c9e790ef73b0f6a5add2"
+    },
+    {
+      "tileId": "2/000/654/935",
+      "path": "2/000/654/935.gph",
+      "bounds": {
+        "west": 112.95,
+        "south": 22.56,
+        "east": 114.06,
+        "north": 23.94
+      },
+      "sizeBytes": 286776,
+      "sha256": "68a0a1114dce7285375d9181789f8b6c252c9be3e37f6e9fd7ecaf9145b50ca8"
+    },
+    {
+      "tileId": "2/000/656/373",
+      "path": "2/000/656/373.gph",
+      "bounds": {
+        "west": 112.95,
+        "south": 22.56,
+        "east": 114.06,
+        "north": 23.94
+      },
+      "sizeBytes": 888,
+      "sha256": "c4fdc92ebd4e84ed0e5517d9b272d91eed8e07970949510ec58b29b6d4002f2c"
+    },
+    {
+      "tileId": "2/000/656/374",
+      "path": "2/000/656/374.gph",
+      "bounds": {
+        "west": 112.95,
+        "south": 22.56,
+        "east": 114.06,
+        "north": 23.94
+      },
+      "sizeBytes": 16376,
+      "sha256": "5427539e8eef5d75833039c820aa40e7b38fc3cf7069f06009b4cbeb91e0a913"
+    },
+    {
+      "tileId": "2/000/656/375",
+      "path": "2/000/656/375.gph",
+      "bounds": {
+        "west": 112.95,
+        "south": 22.56,
+        "east": 114.06,
+        "north": 23.94
+      },
+      "sizeBytes": 158296,
+      "sha256": "43c252770da63bb0bbeee6e4031b60086219665ccf493509ed4528a699d104ea"
+    },
+    {
+      "tileId": "2/000/656/376",
+      "path": "2/000/656/376.gph",
+      "bounds": {
+        "west": 112.95,
+        "south": 22.56,
+        "east": 114.06,
+        "north": 23.94
+      },
+      "sizeBytes": 28424,
+      "sha256": "50166aefe4f3f037ab76ee8f8d27cbbae3dfede3743a8b72cc3e591a9509abbc"
     }
   ]
 }
