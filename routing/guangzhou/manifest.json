@@ -228,10 +228,10 @@
       "tileId": "2/000/652/052",
       "path": "2/000/652/052.gph",
       "bounds": {
-        "west": -67,
-        "south": -78.75,
-        "east": -66.75,
-        "north": -78.5
+        "west": 113,
+        "south": 23,
+        "east": 113.25,
+        "north": 23.25
       },
       "sizeBytes": 2046840,
       "sha256": "b56aafbf3df614bd190e53f195b99a9d539cd49ce1e389f79db5baa4526d37d4"
@@ -240,10 +240,10 @@
       "tileId": "2/000/652/053",
       "path": "2/000/652/053.gph",
       "bounds": {
-        "west": -66.75,
-        "south": -78.75,
-        "east": -66.5,
-        "north": -78.5
+        "west": 113.25,
+        "south": 23,
+        "east": 113.5,
+        "north": 23.25
       },
       "sizeBytes": 11050184,
       "sha256": "7687fcbf1a213ded55d92c27d90d1402a6bc31f59d5f5c9b198fe0aae715ae54"
@@ -252,10 +252,10 @@
       "tileId": "2/000/652/054",
       "path": "2/000/652/054.gph",
       "bounds": {
-        "west": -66.5,
-        "south": -78.75,
-        "east": -66.25,
-        "north": -78.5
+        "west": 113.5,
+        "south": 23,
+        "east": 113.75,
+        "north": 23.25
       },
       "sizeBytes": 1479480,
       "sha256": "f57ce66d244126464a49b1938aec95cc16e2f311bd4ac0b9a7c67f34eb89a1b2"
@@ -264,10 +264,10 @@
       "tileId": "2/000/652/055",
       "path": "2/000/652/055.gph",
       "bounds": {
-        "west": -66.25,
-        "south": -78.75,
-        "east": -66,
-        "north": -78.5
+        "west": 113.75,
+        "south": 23,
+        "east": 114,
+        "north": 23.25
       },
       "sizeBytes": 274216,
       "sha256": "ff3bea7c053a8521f428031b953224a8464065f485d19bd02ab609e3bab2023d"
