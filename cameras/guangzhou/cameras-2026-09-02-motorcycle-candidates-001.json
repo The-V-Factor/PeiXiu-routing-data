@@ -874,6 +874,50 @@
       "locationType": "approximate",
       "accuracyMeters": 150,
       "description": "表格地点对应道路的近似位置，仅供路线辅助参考，非设备精确坐标。"
+    },
+    {
+      "id": "gz-motorcycle-enforcement-068",
+      "name": "海鸥岛海鸥大桥",
+      "lat": 22.97335,
+      "lon": 113.49875,
+      "type": "motorcycle-enforcement-candidate",
+      "restriction": "摩托闯禁",
+      "vehicleScope": "motorcycle",
+      "locationType": "exact",
+      "description": "候选点位，仅供路线辅助参考。"
+    },
+    {
+      "id": "gz-motorcycle-enforcement-069",
+      "name": "禺山西路",
+      "lat": 22.94371,
+      "lon": 113.29444,
+      "type": "motorcycle-enforcement-candidate",
+      "restriction": "摩托闯禁",
+      "vehicleScope": "motorcycle",
+      "locationType": "exact",
+      "description": "候选点位，仅供路线辅助参考。"
+    },
+    {
+      "id": "gz-motorcycle-enforcement-070",
+      "name": "禺山西路",
+      "lat": 22.94360,
+      "lon": 113.29431,
+      "type": "motorcycle-enforcement-candidate",
+      "restriction": "摩托闯禁",
+      "vehicleScope": "motorcycle",
+      "locationType": "exact",
+      "description": "候选点位，仅供路线辅助参考。"
+    },
+    {
+      "id": "gz-motorcycle-enforcement-071",
+      "name": "平康路",
+      "lat": 22.94313,
+      "lon": 113.37256,
+      "type": "motorcycle-enforcement-candidate",
+      "restriction": "摩托闯禁",
+      "vehicleScope": "motorcycle",
+      "locationType": "exact",
+      "description": "候选点位，仅供路线辅助参考。"
     }
   ]
 }
